@@ -7,7 +7,7 @@
         <result property="insertDate" column="INSERT_TIME" jdbcType="DATE"></result>
         <result property="nickName" column="NICK_NAME" jdbcType="VARCHAR"></result>
     </resultMap>
-    <select id="findMessageInfo" resultMap="message_map">
+    <select id="list" resultMap="message_map">
         select * from message
     </select>
 

@@ -14,5 +14,5 @@ import java.util.List;
  */
 public interface IMessageService extends IBaseService<Message, Integer> {
     public static final String SERVICE_NAME = "IMessageService";
-    public List<Message> findMessageInfo();
+    public List<Message> list();
 }

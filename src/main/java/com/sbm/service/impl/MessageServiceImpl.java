@@ -45,7 +45,7 @@ public class MessageServiceImpl implements IMessageService{
     }
 
     @Override
-    public List<Message> findMessageInfo() {
-        return messageMapper.findMessageInfo();
+    public List<Message> list() {
+        return messageMapper.list();
     }
 }

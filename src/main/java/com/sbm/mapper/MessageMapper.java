@@ -15,5 +15,5 @@ import java.util.List;
  */
 @Repository
 public interface MessageMapper extends IBaseMapper<Message, Integer>{
-    public List<Message> findMessageInfo();
+    public List<Message> list();
 }
